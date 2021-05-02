@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hconnect | hospitality integration platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+
+<body>
+    <div class="main">
+        <div class="header ">
+            <div class="mid">
+                <div class="logo">
+                    <img src="imgs/logo.jpg" alt="">
+                </div>
+                <div class="menu ">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#toolkit">Integration Toolkit</a></li>
+                        <li><a href="#partner">Partners</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="https://portal.hconnect.io/#/login" target="_blank">Portal Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="up">
+            <div class="mid">
+                <div class="contant">
+                    <img src="imgs/process.jpg" alt="">
+                    <h3>ESB</h3>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="firstt">
+            <div class="mid">
+                <div class="text">
+                    <p>Take control of your own system integrations using the industry's first drag and drop integration tool.</p>
+
+                    <p>Leverage your certified integrations to automate your operations by combining different systems in a process.</p>
+
+                    <p>From basic tasks to complex multi-step sequences, hconnect gives you the flexibility to create your own processes that can impact the guest experience faster than your competitors.</p>
+                </div>
+                <div class="image">
+                    <img src="imgs/mv2.gif" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="second">
+            <div class="mid">
+                <div class="img">
+                    <img src="imgs/exchange.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p style="margin-top: 10%">Automating those mundane operational processes frees up staff to focus on your guests.</p>
+
+                    <p>From updating the exchange rate in the PMS to complex profile cleansing routines using our partners expertise. </p>
+
+                    <p>The use cases are as endless as your imagination.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="third">
+            <div class="mid">
+                <h3>Check out the other tools in our Integration Toolkit</h3>
+                <div class="a">
+                    <img src="imgs/seamless.jpg" alt="">
+                    <span>Seamless Connectors</span>
+                </div>
+                <div class="a b">
+                    <img src="imgs/partner.jpg" alt="">
+                    <span>Vendor Management</span>
+                </div>
+                <div class="a c">
+                    <img src="imgs/api.jpg" alt="">
+                    <span>Universal API</span>
+                </div>
+                <div class="a d">
+                    <img src="imgs/migrations.jpg" alt="">
+                    <span>System Migration</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="border"></div>
+
+        <div class="footer">
+            <div class="mid">
+                <div class="f1">
+                    <h1>hospitality connect software ltd</h1>
+                    <p>Ireland</p>
+                    <span>© 2021 Hospitality Connect Software Ltd (#656698)</span>
+                </div>
+                <div class="f2">
+                    <ul>
+                        <li><a href="https://www.hconnect.co/about">About Us</a></li>
+                        <li><a href="https://www.iubenda.com/terms-and-conditions/53654941">Terms of Service</a></li>
+                        <li><a href="https://www.iubenda.com/privacy-policy/53654941/cookie-policy">Cookie Policy</a></li>
+                        <li><a href="https://www.iubenda.com/privacy-policy/53654941">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="f3">
+                    <ul>
+                        <li><a href="https://www.hconnect.co/pricing">Platform Pricing</a></li>
+                        <li><a href="https://hconnect.statuspage.io/">Platform Status</a></li>
+                        <li><a href="https://portal.hconnect.io/#/login">Platform Login</a></li>
+                        <li><a href="https://www.linkedin.com/company/hconnect-io/">News</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><span><i class="fas fa-chevron-up"></i></span></button>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="navigation">
+        <ul>
+            <li><a href="#home" target="_self"><i class="far fa-circle"></i></a></li>
+            <li><a href="#toolkit"><i class="far fa-circle"></i></a></li>
+            <li><a href="#partner"><i class="far fa-circle"></i></a></li>
+            <li><a href="#contact"><i class="far fa-circle"></i></a></li>
+        </ul>
+    </div>
+
+
+    <script type="text/javascript">
+        //slider script
+        var counter = 1;
+        setInterval(function() {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 5) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
